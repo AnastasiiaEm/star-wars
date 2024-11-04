@@ -1,0 +1,17 @@
+.error-block {
+  background-color: #f0d9e5;
+  margin: 16px 0;
+  padding: 16px;
+  border-radius: 4px;
+  color: #890b35;
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  text-align: left;
+}
+
+.error-block__title {
+  color: inherit;
+  font-size: 24px;
+  margin: 0;
+}

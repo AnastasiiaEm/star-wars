@@ -1,0 +1,21 @@
+.back-btn {
+  background-color: transparent;
+  color: #ffd54e;
+  border: 3px solid #FFD54E33;
+  border-radius: 8px;
+  padding: 16px;
+  transition: color 0.3s, border-color 0.3s;
+
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.back-btn:hover {
+  border: 3px solid #FFD54E80;
+}
+
+.back-btn:active {
+  border: 3px solid #ffd54e;
+}

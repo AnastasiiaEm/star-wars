@@ -1,0 +1,15 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 135px;
+  padding-block: 20px;
+}
+
+.logo__img {
+  width: 100%;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #FFD54E80);
+}

@@ -1,0 +1,28 @@
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.list__link {
+  display: flex;
+  justify-content: center;
+  color: #FFF;
+  text-decoration: none;
+  padding: 24px;
+  background-color: transparent;
+  border: 3px solid transparent;
+  border-radius: 8px;
+  text-align: center;
+  transition: border-color 0.3s;
+}
+
+.list__link:hover {
+  border: 3px solid #FFD54E80;
+}
+
+.list__link:active {
+  border: 3px solid #FFD54E;
+}

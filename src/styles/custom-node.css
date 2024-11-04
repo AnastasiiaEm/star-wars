@@ -1,0 +1,15 @@
+.custom-node {
+  background: transparent;
+  color: #FFF;
+  border: 3px solid #FFD54E33;
+  border-radius: 8px;
+  padding-inline: 24px;
+}
+
+.custom-node:focus {
+  outline: none;
+}
+
+.custom-node:hover {
+  border: 3px solid #FFD54E80;
+}
